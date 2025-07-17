@@ -4,12 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import os
 import re
-import numpy as np
 from collections import Counter
-import nltk
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.cluster import KMeans
 from textstat import flesch_reading_ease, flesch_kincaid_grade
 
 # Download required NLTK data
