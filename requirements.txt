@@ -1,1 +1,12 @@
-# Python dependencies for therapy-ai-platform 
+# Python dependencies for therapy-ai-platformFlask==2.3.2
+Flask-CORS==4.0.0
+Flask-SQLAlchemy==3.0.5
+SQLAlchemy==2.0.19
+psycopg2-binary==2.9.7
+nltk==3.8.1
+vaderSentiment==3.3.2
+scikit-learn==1.3.0
+numpy==1.24.3
+textstat==0.7.3
+gunicorn==21.2.0
+python-dotenv==1.0.0
